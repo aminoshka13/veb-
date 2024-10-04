@@ -1,0 +1,96 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center; 
+}
+
+header {
+    background-color: #f8f9fa;
+    padding: 20px;
+    text-align:center;
+}
+
+img {
+    width: 70%; 
+    height: auto;
+    text-align:center;
+    /* margin-right: auto;  */
+    /* margin-left: auto; */
+    /* display: block; */
+}
+
+
+
+* {
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif; 
+    margin: 0;
+    padding: 0;
+    text-align:center;
+}
+
+div, header, footer, main, nav {
+    margin: 10px; 
+    padding: 10px;
+    border: 1px solid #ddd; 
+    text-align:center;
+    
+}
+
+/* text */
+p, h1, h2, h3 {
+    font-family: 'Roboto', sans-serif; 
+    font-size: 20px; 
+    color: #0a0000; 
+    text-align:center; 
+}
+
+
+table {
+    width: 60%; 
+    border-collapse: collapse; 
+    margin-right: auto; 
+    margin-left: auto; 
+}
+
+th, td {
+    padding: 8px; 
+    border: 1px solid #ddd; 
+    text-align: left;
+    text-align:center;
+}
+
+th {
+    background-color: #f2f2f2; /* фон */
+}
+
+/* Ссылки */
+a {
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif; 
+    font-size: 16px; 
+    color:  #086500ad; 
+}
+
+/*при наведении */
+a:hover {
+    color: #086500ad; 
+}
+
+h1 {
+    font-size: 50px;
+    color:   #071806dc;
+}
+
+h2 {
+    font-size: 40px;
+    color:  #285224d0;
+}
+footer {
+    background-color:  #071806dc;
+    color: white; 
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
